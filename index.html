@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./static/libs/scrollReveal/scrollreveal.min.js"></script>
+    <!-- 引入font-awesome依赖 -->
+    <link
+      href="https://cdn.bootcss.com/font-awesome/5.13.0/css/all.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./static/libs/glide/glide.core.min.css" />
+    <link rel="stylesheet" href="./static/libs/glide/glide.theme.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>泽孚技术 | ZZiPho </title>
+  </head>
+  <body>
+    <!-- 网页头部 -->
+    <header>
+      <div class="logo">䷼ZZiPho䷼</div>
+      <nav>
+        <a href="#home">首页</a>
+        <a href="#about-us">关于我们</a>
+        <a href="#showcases">PCIe 光传输</a>
+        <a href="#service">光子传感</a>
+        <a href="#team-intro">团队介绍</a>
+        <a href="#company-activities">产品信息</a>
+        <a href="#"><i class="fas fa-search"></i></a> 
+      </nav>
+      <div class="burger">
+        <div class="burger-line1"></div>
+        <div class="burger-line2"></div>
+        <div class="burger-line3"></div>
+      </div>
+    </header>
+    <div id="home" class="glide">
+      <div class="glide__track" data-glide-el="track">
+        <div class="glide__slides">
+          <!-- 轮播图一 -->
+          <div class="glide__slide">
+            <div class="slide-caption left">
+              <h1>䷼泽孚技术䷼</h1>
+              <h3>成无用之用</h3>
+              <button class="explore-btn">探索更多</button>
+            </div>
+            <div class="backdrop"></div>
+            <img src="./static/images/background.jpg" />
+          </div>
+          <div class="glide__slide">
+            <div class="slide-caption left">
+              <h1>䷼ZZiPho䷼</h1>
+              <h3>Hardcore To Light More</h3>
+              <button class="explore-btn">探索更多</button>
+            </div>
+            <div class="backdrop"></div>
+            <video
+              src="./static/videos/working-man.mp4"
+              muted
+              autoplay
+              loop
+            ></video>
+          </div>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+            <i class="fa fa-angle-left"></i>
+          </button>
+          <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+            <i class="fa fa-angle-right"></i>
+          </button>
+          <div class="glide__bullets" data-glide-el="controls[nav]">
+            <button class="glide__bullet" data-glide-dir="=0"></button>
+            <button class="glide__bullet" data-glide-dir="=1"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-wrapper">
+      <section id="about-us" class="about-us">
+        <h2 class="title1">关于我们</h2>
+        <div class="intro">
+          <p>
+            泽孚技术于2025年在苏州成立
+          </p>
+        </div>
+        <div class="features">
+          <div class="feature">
+            <i class="fas fa-lightbulb"></i>
+            <h4 class="feature-title">PCIe光传输</h4>
+            <p class="feature-content">
+              PCIe光传输系统，面向下一代解耦AI/HPC架构，采用CDFP封装的AOC和光模块。
+            </p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-chart-line"></i>
+            <h4 class="feature-title">生物光子传感</h4>
+            <p class="feature-content">
+              基于先进硅光子技术的生物传感方案，希望早日走出实验室，为大家的健康服务。
+            </p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-shopping-cart"></i>
+            <h4 class="feature-title">定制光模块/系统</h4>
+            <p class="feature-content">
+              加密光模块/非标光通信系统/自由空间光通信
+            </p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-desktop"></i>
+            <h4 class="feature-title">预留1</h4>
+            <p class="feature-content">
+               未来的留白 
+            </p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-tachometer-alt"></i>
+            <h4 class="feature-title">预留2</h4>
+            <p class="feature-content">
+              未来的留白
+            </p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-server"></i>
+            <h4 class="feature-title">预留3</h4>
+            <p class="feature-content">
+              未来的留白
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="showcases" class="showcases section-bg">
+        <h2 class="title1">成功案例</h2>
+        <div class="filter-btns">
+          <button class="filter-btn active" data-filter="*">全部</button>
+          <button class="filter-btn" data-filter=".web">PCIe</button>
+          <button class="filter-btn" data-filter=".mobile">生物传感</button>
+          <button class="filter-btn" data-filter=".science">客户定制</button>
+        </div>
+        <div class="cases">
+          <div class="case-item web science">
+            <img src="./static/images/gray-laptop-computer-showing-html-codes-in-shallow-focus-160107.jpg" alt="">
+          </div>
+          <div class="case-item web science">
+            <img src="./static/images/photo-of-imac-near-macbook-1029757.jpg" alt="">
+          </div>
+          <div class="case-item web">
+            <img src="./static/images/apple-laptop-notebook-office-39284.jpg" alt="">
+          </div>
+          <div class="case-item web">
+            <img src="./static/images/apple-apple-device-design-desk-285814.jpg" alt="">
+          </div>
+          <div class="case-item mobile">
+            <img src="./static/images/person-using-black-and-white-smartphone-and-holding-blue-230544.jpg" alt="">
+          </div>
+          <div class="case-item science">
+            <img src="./static/images/person-holding-a-smartphone-892757.jpg" alt="">
+          </div>
+          <div class="case-item mobile web science">
+            <img src="./static/images/blur-close-up-code-computer-546819.jpg" alt="">
+          </div>
+          <div class="case-item mobile">
+            <img src="./static/images/bokeh-photography-of-person-holding-turned-on-iphone-1440727.jpg" alt="">
+          </div>
+        </div>
+      </section>
+      <section id="team-intro" class="team-intro section-bg">
+        <h2 class="title1">团队介绍</h2>
+        <div class="team-members">
+          <div class="team-member">
+            <div class="profile-image">
+              <img src="./static/images/zdh.jpg" alt="">
+            </div>
+            <h4 class="name">张东豪</h4>
+            <p class="position">一号员工</p>
+            <ul class="social-links">
+              <li><a href="http://www.zzipho.com"><i class="fab fa-weixin"></i></a></li>
+              <li><a href="http://www.zzipho.com"><i class="fab fa-weibo"></i></a></li>
+              <li><a href="http://www.zzipho.com"><i class="fab fa-github"></i></a></li>
+              <li><a href="http://www.zzipho.com"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+          <div class="team-member">
+            <div class="profile-image">
+              <img src="./static/images/Marketing.jpg" alt="">
+            </div>
+            <h4 class="name">TBH</h4>
+            <p class="position">市场</p>
+            <ul class="social-links">
+              <li><a href="http://www.zzipho.com"><i class="fab fa-weixin"></i></a></li>
+              <li><a href="http://www.zzipho.com"><i class="fab fa-weibo"></i></a></li>
+              <li><a href="http://www.zzipho.com"><i class="fab fa-github"></i></a></li>
+              <li><a href="http://www.zzipho.com"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+          <div class="team-member">
+            <div class="profile-image">
+              <img src="./static/images/operation.jpg" alt="">
+            </div>
+            <h4 class="name">TBH</h4>
+            <p class="position">运营</p>
+            <ul class="social-links">
+              <li><a href="http://www.zzipho.com"><i class="fab fa-weixin"></i></a></li>
+              <li><a href="http://www.zzipho.com"><i class="fab fa-weibo"></i></a></li>
+              <li><a href="http://www.zzipho.com"><i class="fab fa-github"></i></a></li>
+              <li><a href="http://www.zzipho.com"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+          <div class="team-member">
+            <div class="profile-image">
+              <img src="./static/images/RD.jpg" alt="">
+            </div>
+            <h4 class="name">TBH</h4>
+            <p class="position">研发</p>
+            <ul class="social-links">
+              <li><a href="http://www.zzipho.com"><i class="fab fa-weixin"></i></a></li>
+              <li><a href="http://www.zzipho.com"><i class="fab fa-weibo"></i></a></li>
+              <li><a href="http://www.zzipho.com"><i class="fab fa-github"></i></a></li>
+              <li><a href="http://www.zzipho.com"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="data-section">
+        <div class="data-piece">
+          <i class="fas fa-code"></i>
+            <div class="num">2</div>
+            <div class="data-desc">名员工</div>
+        </div>
+        <div class="data-piece">
+          <i class="fas fa-code"></i>
+            <div class="num">3</div>
+            <div class="data-desc">项专利</div>
+        </div>
+        <div class="data-piece">
+          <i class="fas fa-code"></i>
+            <div class="num">2</div>
+            <div class="data-desc">位客户</div>
+        </div>
+        <div class="data-piece">
+          <i class="fas fa-code"></i>
+            <div class="num">3</div>
+            <div class="data-desc">个项目</div>
+        </div>
+      </section>
+      <section id="company-activities" class="company-activities">
+        <h2 class="title1">公司动态</h2>
+        <p class="intro">关注公司动态，获取一手信息</p>
+        <div class="activities">
+          <div class="activity">
+            <div class="act-image-wrapper">
+              <img src="./static/images/PCIe_AOC.jpg" alt="">
+            </div>
+            <div class="meta">
+              <p class="data-published">
+                <i class="far fa-calendar"></i>
+                2020年5月17日
+              </p>
+              <p class="comments">
+                <i class="far fa-comments"></i>
+                16
+                <span>条评论</span>
+              </p>
+            </div>
+            <h2 class="act-title">PCIe Over Optics</h2>
+            <article>
+              PCIe光传系统是通过光纤传输PCIe协议信号的硬件，核心优势：高速低延迟‌，远距抗干扰‌，传输距离可达50米。典型应用‌：AI/HPC集群，汽车，高速信息采集系统，电子对抗。
+            </article>
+            <button class="read-more-btn">阅读更多</button>
+          </div>
+          <div class="activity">
+            <div class="act-image-wrapper">
+              <img src="./static/images/CustomerProject.jpg" alt="">
+            </div>
+            <div class="meta">
+              <p class="data-published">
+                <i class="far fa-calendar"></i>
+                2025年5月17日
+              </p>
+              <p class="comments">
+                <i class="far fa-comments"></i>
+                9
+                <span>条评论</span>
+              </p>
+            </div>
+            <h2 class="act-title">XPU光电近封装</h2>
+            <article>
+              XPU板卡集成光口是下一代AI/HPC集群发展的重点方向。Google TPU已经采用这种方式，并结合OCS技术实现了全光互联的可重构交换网络，其优点是灵活扩容，协议无关，速率无关。
+            </article>
+            <button class="read-more-btn">阅读更多</button>
+          </div>
+          <div class="activity">
+            <div class="act-image-wrapper">
+              <img src="./static/images/PAimage.jpg" alt="">
+            </div>
+            <div class="meta">
+              <p class="data-published">
+                <i class="far fa-calendar"></i>
+                2020年5月17日
+              </p>
+              <p class="comments">
+                <i class="far fa-comments"></i>
+                11
+                <span>条评论</span>
+              </p>
+            </div>
+            <h2 class="act-title">Photon Accoustic BioSensing</h2>
+            <article>
+              光声成像（Photoacoustic Imaging, PAI）是一种基于光声效应的混合成像技术，结合光学的高对比度与超声的高穿透性，为生物医学领域提供了突破性的诊断手段。
+            </article>
+            <button class="read-more-btn">阅读更多</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="footer-menus">
+        <div class="contact-us">
+          <p class="menu-title">联系我们</p>
+          <p>地址：</p>
+          <p>电话</p>+86 18616574809
+          <p>传真</p>
+          <p>电子邮件：donghao@zzipho.com</p>
+        </div>
+        <div class="service-menu footer-menu">
+          <p class="menu-title">服务概览</p>
+          <ul class="menu-items">
+            <li><a href="#">产品洽购</a></li>
+            <li><a href="#">项目咨询</a></li>
+            <li><a href="#">售后服务</a></li>
+            <li><a href="#">联系专家</a></li>
+          </ul>
+        </div>
+        <div class="service-menu footer-menu">
+          <p class="menu-title">成功案例</p>
+          <ul class="menu-items">
+            <li><a href="#">PCIe光传输</a></li>
+            <li><a href="#">生物光子传感</a></li>
+            <li><a href="#">客户定制方案</a></li>
+          </ul>
+        </div>
+        <div class="service-menu footer-menu">
+          <p class="menu-title">行业动态</p>
+          <ul class="menu-items">
+            <li><a href="#">信息公开</a></li>
+            <li><a href="#">公司新闻</a></li>
+          </ul>
+        </div>
+        <div class="service-menu footer-menu">
+          <p class="menu-title">帮助与支持</p>
+          <ul class="menu-items">
+            <li><a href="#">帮助中心</a></li>
+            <li><a href="#">联系客服</a></li>
+            <li><a href="#">文档资源</a></li>
+          </ul>
+        </div>
+        <p class="icp-info">网站备份申请中</p>
+        <p class="rights">&copy; 2025 苏州泽孚光电技术有限公司</p>
+        <div class="scroll-to-top">
+          <a href="#"><i class="fas fa-chevron-up"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!-- 引入JS文件 --> 
+    <script src="./static/libs/anime/anime.min.js"></script>
+    <script src="./static/libs/glide/glide.min.js"></script>
+    <script src="./static/libs/isotope/isotope.pkgd.min.js"></script>
+    <script src="./static/libs/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
