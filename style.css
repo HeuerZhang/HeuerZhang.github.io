@@ -12,7 +12,7 @@ img {
 }
 
 :root {
-  --primary-color: #ff434f;
+  --primary-color: #ff9f43;
   --secondary-color: #e3e3e3;
   --text-color-lightest: #e7e9ec;
   --text-color-darker: #2e2e2e;
@@ -67,7 +67,9 @@ header.sticky {
   animation: dropDown 0.5s ease-in-out forwards;
 }
 
-header.sticky .logo,
+header.sticky .logo {
+  color: #ff9f43; /* 这里使用和你第1步同样的橙色 */
+}
 header.sticky nav a,
 header.sticky nav i {
   color: var(--text-color-darker);
