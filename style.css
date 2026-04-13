@@ -20,7 +20,7 @@ img {
   --text-color-gray: #8b8b8b;
   --text-color-dark-gray: #727272;
   --text-color-light-gray: #c6c6c6;
-  --backdrop-color: rgba(42, 42, 42, 0.2);
+  --backdrop-color: rgba(42, 42, 42, 0.7);
 }
 
 /* 栅格布局 */
@@ -39,7 +39,7 @@ header {
 .logo {
   font-size: 24px;
   font-weight: 600;
-  color: var(--text-color-lightest);
+  color: #ff9f43; /* 改为橙色，例如这个#ff9f43（Sun Orange） */;
 }
 
 header nav {
@@ -131,14 +131,15 @@ header.sticky nav i {
 }
 
 .backdrop {
-  background: var(--backdrop-color);
+ /* 从左侧（文字处）向右侧渐变消失 */
+  background: linear-gradient(to right, rgba(0,0,0,0.5), transparent);
+  opacity: 1; /* 此时让 opacity 生效 */
   z-index: 60;
   position: absolute;
   width: 100%;
   height: 100%;
   left: 0;
   top: 0;
-  opacity: 0.1;
 }
 
 .explore-btn {
