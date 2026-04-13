@@ -12,7 +12,7 @@ img {
 }
 
 :root {
-  --primary-color: #D35400;
+  --primary-color: #C0392B;
   --secondary-color: #e3e3e3;
   --text-color-lightest: #e7e9ec;
   --text-color-darker: #2e2e2e;
@@ -37,9 +37,9 @@ header {
 }
 
 .logo {
-  font-size: 24px;
-  font-weight: 600;
-  color: #ff9f43; /* 改为橙色，例如这个#ff9f43（Sun Orange） */
+  font-size: 28px;
+  font-weight: 700;
+  color: #C0392B; /* 改为橙色，例如这个#ff9f43（Sun Orange） */
 }
 
 header nav {
@@ -68,7 +68,7 @@ header.sticky {
 }
 
 header.sticky .logo {
-  color: #ff9f43; /* 这里使用和你第1步同样的橙色 */
+  color: #C0392B; /* 这里使用和你第1步同样的橙色 */
 }
 header.sticky nav a,
 header.sticky nav i {
@@ -133,9 +133,9 @@ header.sticky nav i {
 }
 
 .backdrop {
- /* 从左侧（文字处）向右侧渐变消失 */
-  background: linear-gradient(to right, rgba(0,0,0,0.5), transparent);
-  opacity: 1; /* 此时让 opacity 生效 */
+ /* 从左侧向右侧逐渐变深，或者从透明变深，仅在文字区域提供对比度 */
+  background: linear-gradient(to right, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%);
+  opacity: 1; /* 此时将不透明度设为 1，靠 gradient 内部的 rgba 控制 */
   z-index: 60;
   position: absolute;
   width: 100%;
