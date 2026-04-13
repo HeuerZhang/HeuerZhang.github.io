@@ -133,15 +133,14 @@ header.sticky nav i {
 }
 
 .backdrop {
- /* 从左侧向右侧逐渐变深，或者从透明变深，仅在文字区域提供对比度 */
-  background: linear-gradient(to right, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%);
-  opacity: 1; /* 此时将不透明度设为 1，靠 gradient 内部的 rgba 控制 */
+  background: transparent; /* 将背景设为透明 */
   z-index: 60;
   position: absolute;
   width: 100%;
   height: 100%;
   left: 0;
   top: 0;
+  opacity: 0.1; /* 彻底隐藏不透明度 */
 }
 
 .explore-btn {
