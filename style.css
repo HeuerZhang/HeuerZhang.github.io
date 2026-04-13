@@ -39,7 +39,7 @@ header {
 .logo {
   font-size: 24px;
   font-weight: 600;
-  color: #ff9f43; /* 改为橙色，例如这个#ff9f43（Sun Orange） */;
+  color: #ff9f43; /* 改为橙色，例如这个#ff9f43（Sun Orange） */
 }
 
 header nav {
