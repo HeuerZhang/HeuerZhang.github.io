@@ -12,7 +12,7 @@ img {
 }
 
 :root {
-  --primary-color: #D35400;
+  --primary-color: #ff9f43;
   --secondary-color: #e3e3e3;
   --text-color-lightest: #e7e9ec;
   --text-color-darker: #2e2e2e;
@@ -20,7 +20,7 @@ img {
   --text-color-gray: #8b8b8b;
   --text-color-dark-gray: #727272;
   --text-color-light-gray: #c6c6c6;
-  --backdrop-color: rgba(42, 42, 42, 0.3);
+  --backdrop-color: rgba(42, 42, 42, 0.1);
 }
 
 /* 栅格布局 */
@@ -39,7 +39,7 @@ header {
 .logo {
   font-size: 28px;
   font-weight: 700;
-  color: #D35400; /* 改为橙色，例如这个#ff9f43（Sun Orange） */
+  color: #ff9f43; /* 改为橙色，例如这个#ff9f43（Sun Orange） */
 }
 
 header nav {
@@ -68,7 +68,7 @@ header.sticky {
 }
 
 header.sticky .logo {
-  color: #D35400; /* 这里使用和你第1步同样的橙色 */
+  color: #ff9f43; /* 这里使用和你第1步同样的橙色 */
 }
 header.sticky nav a,
 header.sticky nav i {
@@ -133,14 +133,15 @@ header.sticky nav i {
 }
 
 .backdrop {
-  background: transparent; /* 将背景设为透明 */
+  /* 从左侧（文字处）向右侧渐变消失 */
+  background: linear-gradient(to right, rgba(0,0,0,0.5), transparent);
+  opacity: 1; /* 此时让 opacity 生效 */
   z-index: 60;
   position: absolute;
   width: 100%;
   height: 100%;
   left: 0;
   top: 0;
-  opacity: 0.1; /* 彻底隐藏不透明度 */
 }
 
 .explore-btn {
