@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: DIN, "PingFang SC", "Microsoft Yahei", Arial;
+  font-family: Arial, "PingFang SC", "Microsoft Yahei", DIN;
   font-size: 14px;
 }
 
