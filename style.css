@@ -12,7 +12,7 @@ img {
 }
 
 :root {
-  --primary-color: #ff9f43;
+  --primary-color: #ff8c00;
   --secondary-color: #e3e3e3;
   --text-color-lightest: #e7e9ec;
   --text-color-darker: #2e2e2e;
@@ -39,7 +39,7 @@ header {
 .logo {
   font-size: 28px;
   font-weight: 700;
-  color: #ff9f43; /* 改为橙色，例如这个#ff9f43（Sun Orange） */
+  color: #ff8c00; /* 改为橙色，例如这个#ff8c00 */
 }
 
 header nav {
@@ -68,7 +68,7 @@ header.sticky {
 }
 
 header.sticky .logo {
-  color: #ff9f43; /* 这里使用和你第1步同样的橙色 */
+  color: #ff8c00; /* 这里使用和你第1步同样的橙色 */
 }
 header.sticky nav a,
 header.sticky nav i {
